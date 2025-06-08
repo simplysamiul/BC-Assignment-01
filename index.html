@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,107 @@
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/mobile.css">
     <link rel="stylesheet" href="./style/tab.css">
+    <link rel="stylesheet" href="./style/shared.css">
     <link rel="stylesheet" href="./style/root.css">
-    <!-- Google Font CDN -->
     <!-- Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/5e3ca26da2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <!-- Header Section -->
+    <header class="container">
+        <nav class="navbar-section flex">
+            <!-- logo -->
+            <div class="logo">
+                <img src="./resources/logo.svg" alt="website-logo">
+            </div>
+            <!-- Navbar menu items -->
+            <div class="menu-container flex">
+                <div class="menu-items">
+                    <ul class="flex">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Community</a></li>
+                        <li><a href="">Services</a></li>
+                    </ul>
+                </div>
+                <div class="collapse-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <button class="primary-btn menu-btn">
+                    <span>Sign In</span>
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </button>
+            </div>
+        </nav>
+        <!-- Banner Section -->
+        <div class="banner-section flex">
+            <div class="banner-left">
+                <div class="banner-uniq-bg"></div>
+                <h1>
+                    Empower Your <br> Blockchain Journey <br> with <span>Delft</span>
+                </h1>
+                <p>Discover, Invest, & Participate in the Future of Decentralized Finance</p>
+                <div>
+                    <button class="primary-btn">
+                        <span>Services</span>
+                        <i class="fa-solid fa-bell-concierge"></i>
+                    </button>
+                    <button class="banner-btn-two">
+                        <span>Community</span>
+                        <i class="fa-solid fa-people-arrows"></i>
+                    </button>
+                </div>
+                <!-- Banner social icon -->
+                <div class="banner-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+            </div>
+            <div class="banner-right">
+                <img src="./resources/banner-img.png" alt="banner-img">
+            </div>
+        </div>
+    </header>
+    <!-- Body Section -->
+    <main>
+        <!-- our clients section -->
+        <div class="container">
+            <div class="client-section">
+            <h2>Our Backers<br>Launch Partners</h2>
+            <div class="client-container">
+                <div class="specific-client">
+                    <img src="./resources/client/partner1.svg" alt="client-Name">
+                    <span>Leaf Wallet</span>
+                </div>
+                <div class="specific-client">
+                    <img src="./resources/client/partner2.svg" alt="client-Name">
+                    <span>Mezaxie</span>
+                </div>
+                <div class="specific-client">
+                    <img src="./resources/client/partner3.svg" alt="client-Name">
+                    <span>Money Space</span>
+                </div>
+                <div class="specific-client">
+                    <img src="./resources/client/partner4.svg" alt="client-Name">
+                    <span>PoxelWallet</span>
+                </div>
+                <div class="specific-client">
+                    <img src="./resources/client/partner5.svg" alt="client-Name">
+                    <span>Digi Money</span>
+                </div>
+                <div class="specific-client">
+                    <img src="./resources/client/partner6.svg" alt="client-Name">
+                    <span>Wallet Stat</span>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </main>
+    <!-- Footer Section -->
 </body>
+
 </html>

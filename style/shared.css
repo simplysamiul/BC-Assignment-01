@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* shared class */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.primary-btn{
+    background: var(--orange);
+    border: none;
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid var(--orange);
+    margin-left: 10px;
+    transition: 0.2s ease-in;
+}
+.primary-btn:hover{
+    cursor: pointer;
+    background: none;
+}

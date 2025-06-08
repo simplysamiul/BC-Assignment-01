@@ -1,0 +1,11 @@
+@media screen and (min-width : 641px) and (max-width: 990px){
+    /* Banner Section */
+    .banner-section{
+        flex-direction: column;
+    }
+    /* Banner right */
+    .banner-right{
+        width: 100%;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,143 @@
+body{
+    background-color: var(--main-Bg);
+    font-family: sans-serif;
+}
+/* Header Section */
+header{
+    height: 100vh;
+}
+/* Navbar Section */
+.navbar-section{
+    align-items: center;
+    justify-content: space-between;
+    background: var(--secondary-bg);
+    margin: 25px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.collapse-menu{
+    display: none;
+}
+.collapse-menu i{
+    color: white;
+}
+
+.menu-items ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    color: var(--light-gray);
+}
+.menu-container{
+    align-items: center;
+}
+
+/* Banner section */
+.banner-section{
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+/* banner-left side */ 
+.banner-left{
+    color: var(--white);
+    position: relative;
+}
+
+.banner-uniq-bg{
+    position: absolute;
+    height: 50vh;
+    width: 0;
+    top: 0;
+    left: 50px;
+    box-shadow: 0 0 150px 35px #0055FF;
+    z-index: -1;
+}
+.banner-left h1{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.banner-left h1 span{
+    color: var(--orange);
+}
+.banner-left p{
+    margin-bottom: 20px;
+}
+.banner-icon{
+    margin: 30px 0;
+}
+.banner-icon i{
+    color: var(--white);
+    background-color: var(--secondary-bg);
+    /* width: 20px; */
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid var(--white);
+    font-size: 12px;
+    margin: 0 5px;
+
+}
+.banner-btn-two{
+    background: none;
+    border: 1px solid var(--orange);
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: 0.2s ease-in;
+}
+.banner-btn-two:hover{
+    background: var(--orange);
+    cursor: pointer;
+}
+/* banner right side */
+.banner-right{
+    width: 70%;
+    text-align: center;
+}
+.banner-right img{
+    width: 100%;
+}
+
+/* Body Section */
+
+/* Our client section */
+.client-section{
+    margin: 50px 0;
+}
+.client-section h2 {
+  margin-bottom: 60px;
+  font-size: 44px;
+  color: var(--white);
+  text-align: center;
+}
+
+.client-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.specific-client{
+    color: var(--white);
+    text-align: center;
+}
+.specific-client img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.specific-client span{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}

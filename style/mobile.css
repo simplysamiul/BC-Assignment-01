@@ -1,0 +1,31 @@
+@media screen and (max-width: 640px) {
+
+    /* Header section */
+    /* Navbar */
+    .collapse-menu {
+        display: block;
+    }
+
+    .menu-items,
+    .menu-btn {
+        display: none;
+    }
+
+    /* Banner Section */
+    .banner-section {
+        flex-direction: column;
+    }
+
+    /* Banner right */
+    .banner-right {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    /* Body Section */
+
+    /* Our client section */
+    .client-container{
+    grid-template-columns: repeat(2, 1fr);
+}
+}
