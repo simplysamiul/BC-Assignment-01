@@ -25,7 +25,12 @@
     /* Body Section */
 
     /* Our client section */
-    .client-container{
-    grid-template-columns: repeat(2, 1fr);
-}
+    .client-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* footer section */
+    .footer-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
