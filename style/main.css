@@ -3,9 +3,6 @@ body{
     font-family: sans-serif;
 }
 /* Header Section */
-header{
-    height: 100vh;
-}
 /* Navbar Section */
 .navbar-section{
     align-items: center;
@@ -41,7 +38,7 @@ header{
 
 /* Banner section */
 .banner-section{
-    margin-top: 30px;
+    margin-top: 50px;
     align-items: center;
     justify-content: space-between;
 }
@@ -83,7 +80,7 @@ header{
     border: 1px solid var(--white);
     font-size: 12px;
     margin: 0 5px;
-
+    
 }
 .banner-btn-two{
     background: none;
@@ -128,6 +125,7 @@ header{
 .specific-client{
     color: var(--white);
     text-align: center;
+    margin-top: 15px;
 }
 .specific-client img{
     width: 100px;
