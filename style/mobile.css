@@ -28,9 +28,34 @@
     .client-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    .specific-client img{
+        width: 70px;
+        height: 70px;
+    }
+    .specific-client span{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    /* Contact form section */
+    .contact-section {
+        flex-direction: column-reverse;
+    }
+
+    /* contact form */
+    .contact-form {
+        margin: 0;
+        padding: 10px 20px;
+
+    }
+    /* contact-details */
+    .contact-img {
+        width: 60%;
+    }
 
     /* footer section */
     .footer-content {
         grid-template-columns: repeat(1, 1fr);
     }
+
 }

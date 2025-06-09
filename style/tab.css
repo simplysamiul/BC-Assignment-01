@@ -1,5 +1,6 @@
 @media screen and (min-width : 641px) and (max-width: 990px) {
 
+    /* Body */
     /* Banner Section */
     .banner-section {
         flex-direction: column;
@@ -11,9 +12,36 @@
         margin-top: 50px;
     }
 
+    /* Our client section */
     .specific-client img {
         width: 80px;
         height: 80px;
+    }
+
+    .client-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .specific-client span {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    /* Contact form section */
+    .contact-section {
+        flex-direction: column-reverse;
+    }
+
+    /* contact form */
+    .contact-form {
+        margin: 0;
+        padding: 10px 20px;
+
+    }
+
+    /* contact-details */
+    .contact-img {
+        width: 60%;
     }
 
     /* footer section */

@@ -74,11 +74,13 @@
         </div>
     </header>
     <!-- Body Section -->
-    <main>
+    <main class="container">
+
         <!-- our clients section -->
-        <div class="container">
+        <div>
             <div class="client-section">
                 <h2>Our Backers<br>Launch Partners</h2>
+                <!-- Client details -->
                 <div class="client-container">
                     <div class="specific-client">
                         <img src="./resources/client/partner1.svg" alt="client-Name">
@@ -106,7 +108,36 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <!-- Contact form section -->
+        <div class="contact-section flex">
+            <!-- contact form -->
+            <div class="contact-form">
+                <div class="contact-bg-left"></div>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Name">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <input type="number" name="" id="" placeholder="Number">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <button class="submit-btn">
+                        Send
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+            <!-- contact-details -->
+            <div class="contact-details">
+                <div class="contact-bg-right"></div>
+                <h3>Contact Info</h3>
+                <p class="details-text">We value your feedback and are here to assist you with any inquiries or concerns. Please feel free to
+                    reach out to us using the following contact information:</p>
+                <h4>For Users: <span class="details-text">hello@delft.com</span></h4>
+                <h4>For Exchanges/Projects: <span class="details-text">contact@delft.com</span></h4>
+                <div class="contact-img">
+                    <img src="./resources/contact-img.png" alt="Contact0-Bitcoin-Image">
+                </div>
+            </div>
         </div>
     </main>
     <!-- Footer Section -->
@@ -145,7 +176,10 @@
                 </div>
                 <div class="each-content update-section">
                     <span>Stay up to date</h3>
-                    <input type="email" name="" id="" placeholder="Your Email Address">
+                        <div class="footer-email">
+                            <input type="email" name="" id="" placeholder="Your Email Address">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
                 </div>
             </div>
         </div>
