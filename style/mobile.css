@@ -59,11 +59,19 @@
     .helping-details {
         margin: 10px 0;
     }
-    .helping-details i{
+
+    .helping-details i {
         font-size: 30px;
     }
-    .helping-details h2{
+
+    .helping-details h2 {
         font-size: 22px;
+    }
+
+    /* Foundation Of blockchain */
+    /* foundation of bc area */
+    .bc-foundation-area {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     /* Contact form section */

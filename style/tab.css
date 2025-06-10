@@ -58,6 +58,11 @@
     .helping-details h2 {
         font-size: 24px;
     }
+    /* Foundation Of blockchain */
+    /* foundation of bc area */
+    .bc-foundation-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     /* Contact form section */
     .contact-section {
