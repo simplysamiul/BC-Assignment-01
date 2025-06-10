@@ -120,6 +120,70 @@ body {
 
 /* Body Section */
 
+
+/* Power of  Blockchain */
+.bc-power-section {
+    margin: 100px 0;
+}
+
+.bc-power-title {
+    color: var(--white);
+    text-align: center;
+}
+
+.bc-power-title h2 {
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    word-spacing: 0.1rem;
+}
+
+.bc-power-title p {
+    color: var(--light-gray);
+    margin-bottom: 50px;
+}
+
+/* Blockchain power container */
+.bc-power-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    color: var(--white);
+    text-align: center;
+}
+
+.bc-power-industry {
+    margin-bottom: 15px;
+    /* border: 1px solid gray; */
+    padding: 25px 0;
+}
+
+.bc-power-industry i {
+    margin: 0 auto;
+    font-size: 40px;
+    color: var(--orange);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 30% 30%, #0f1a2b, #0A0A11);
+    border: 1px solid rgba(255, 255, 255, 0.062);
+}
+
+.bc-power-industry h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.bc-power-industry p {
+    color: var(--light-gray);
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* Our client section */
 .client-section {
     margin: 50px 0;
@@ -158,89 +222,106 @@ body {
 }
 
 /* Helping Blockchain section */
-.helping-bc-section{
+.helping-bc-section {
     margin: 130px 0;
 }
-.helping-bc-container{
+
+.helping-bc-container {
     align-items: center;
 }
+
 /* helping blockchain title */
-.helping-bc-title{
+.helping-bc-title {
     text-align: center;
     font-weight: 700;
     color: var(--white);
     font-size: 32px;
     margin-bottom: 50px;
 }
+
 /* helping section img left */
-.helping-bc-left{
+
+.helping-bc-left {
     width: 50%;
     margin-right: 50px;
 }
-.helping-bc-left img{
+
+.helping-bc-left img {
     width: 100%;
 }
+
 /* helping section content r */
-.helping-bc-right{
+.helping-bc-right {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     color: white;
 }
-.helping-details{
+
+.helping-details {
     align-items: center;
     margin: 15px;
 }
-.helping-details i{
+
+.helping-details i {
     margin-right: 10px;
     font-size: 40px;
 }
-.helping-details h2{
-    color: #67dbfd;
+
+.helping-details h2 {
+    color: var(--orange);
 }
-.helping-details p{
+
+.helping-details p {
     color: var(--light-gray);
     margin-top: 10px;
 }
 
 /* Foundation Of blockchain */
-.bc-foundation-section{
+.bc-foundation-section {
     margin: 100px 0;
 }
-.bc-foundation-title{
+
+.bc-foundation-title {
     text-align: center;
     color: var(--white);
     margin-bottom: 60px;
 }
-.bc-foundation-title h2{
+
+.bc-foundation-title h2 {
     font-weight: 700;
     font-size: 46px;
     margin-bottom: 15px;
 }
-.bc-foundation-title p{
+
+.bc-foundation-title p {
     width: 60%;
     margin: 0 auto;
     color: var(--light-gray);
 }
+
 /* foundation of bc area */
-.bc-foundation-area{
+.bc-foundation-area {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
 /* Foundation sector */
-.bc-foundation-sector{
+.bc-foundation-sector {
     margin: 10px;
 }
-.bc-foundation-img img{
+
+.bc-foundation-img img {
     position: relative;
     width: 100%;
     height: 220px;
     border-radius: 10px;
     z-index: -1;
 }
+
 /* Foundation sector content */
-.foundation-sector-content{
+.foundation-sector-content {
     position: relative;
     background: var(--secondary-bg);
     text-align: center;
@@ -253,20 +334,24 @@ body {
     overflow: hidden;
     height: 180px;
 }
-.foundation-sector-content p{
+
+.foundation-sector-content p {
     color: var(--light-gray);
     line-height: 2em;
     margin-bottom: 20px;
 }
-.foundation-sector-content a{
+
+.foundation-sector-content a {
     text-decoration: none;
     color: var(--orange);
 }
+
 /* .foundation-sector-content:hover  */
-.foundation-content-bg{
+.foundation-content-bg {
     transition: 0.3s ease-in-out;
 }
-.foundation-sector-content:hover .foundation-content-bg{
+
+.foundation-sector-content:hover .foundation-content-bg {
     position: absolute;
     height: 20px;
     width: 0;
@@ -274,11 +359,13 @@ body {
     left: 46%;
     box-shadow: 0 0 110px 55px #0055FF;
     z-index: -1;
-    
+
 }
-.foundation-sector-content:hover{
+
+.foundation-sector-content:hover {
     cursor: pointer;
 }
+
 /* Contact form section */
 .contact-section {
     margin: 150px 0;
@@ -295,9 +382,10 @@ body {
     padding: 30px 40px;
     border-radius: 10px;
     position: relative;
-    
+
 }
-.contact-bg-left{
+
+.contact-bg-left {
     position: absolute;
     height: 300px;
     width: 0;
@@ -357,13 +445,15 @@ textarea {
     background: none;
     cursor: pointer;
 }
+
 /* contact details */
 .contact-details {
     margin-left: 20px;
     margin-top: 20px;
     position: relative;
 }
-.contact-bg-right{
+
+.contact-bg-right {
     position: absolute;
     height: 100px;
     width: 0;
@@ -415,7 +505,7 @@ footer::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../resources/bg-image2.jpg');
+    background: linear-gradient(#0a0a11, rgba(0, 0, 0, 0.178)), url('../resources/world.jpg');
     background-size: cover;
     background-position: center;
     z-index: -1;
