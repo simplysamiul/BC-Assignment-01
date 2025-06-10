@@ -26,6 +26,9 @@
 
 
     /* Power of  Blockchain */
+    .bc-power-title h2 {
+        font-size: 28px;
+    }
 
     /* Blockchain power container */
     .bc-power-container {

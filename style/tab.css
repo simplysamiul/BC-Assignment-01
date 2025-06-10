@@ -11,12 +11,17 @@
         width: 100%;
         margin-top: 50px;
     }
+
     /* Power of  Blockchain */
+    .bc-power-title h2 {
+        font-size: 28px;
+    }
 
     /* Blockchain power container */
     .bc-power-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
     /* Our client section */
     .specific-client img {
         width: 80px;
@@ -63,6 +68,7 @@
     .helping-details h2 {
         font-size: 24px;
     }
+
     /* Foundation Of blockchain */
     /* foundation of bc area */
     .bc-foundation-area {
