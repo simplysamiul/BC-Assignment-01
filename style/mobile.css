@@ -28,15 +28,44 @@
     .client-container {
         grid-template-columns: repeat(2, 1fr);
     }
-    
-    .specific-client img{
+
+    .specific-client img {
         width: 70px;
         height: 70px;
     }
-    .specific-client span{
+
+    .specific-client span {
         margin-top: 15px;
         margin-bottom: 20px;
     }
+
+    /* Helping Blockchain section */
+    .helping-bc-container {
+        flex-direction: column;
+    }
+
+    /* helping section img left */
+    .helping-bc-left {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .helping-bc-left img {
+        margin-bottom: 30px;
+    }
+
+    /* helping section content r */
+
+    .helping-details {
+        margin: 10px 0;
+    }
+    .helping-details i{
+        font-size: 30px;
+    }
+    .helping-details h2{
+        font-size: 22px;
+    }
+
     /* Contact form section */
     .contact-section {
         flex-direction: column-reverse;
@@ -48,6 +77,7 @@
         padding: 10px 20px;
 
     }
+
     /* contact-details */
     .contact-img {
         width: 60%;

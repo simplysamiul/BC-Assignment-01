@@ -27,6 +27,38 @@
         margin-bottom: 20px;
     }
 
+    /* Helping Blockchain section */
+    .helping-bc-container {
+        flex-direction: column;
+    }
+
+    /* helping section img left */
+    .helping-bc-left {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .helping-bc-left img {
+        margin-bottom: 30px;
+    }
+
+    /* helping section content r */
+    .helping-bc-right {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .helping-details {
+        margin: 10px 0;
+    }
+
+    .helping-details i {
+        font-size: 35px;
+    }
+
+    .helping-details h2 {
+        font-size: 24px;
+    }
+
     /* Contact form section */
     .contact-section {
         flex-direction: column-reverse;

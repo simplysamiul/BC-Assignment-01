@@ -157,6 +157,49 @@ body {
     font-weight: bold;
 }
 
+/* Helping Blockchain section */
+.helping-bc-section{
+    margin: 130px 0;
+}
+.helping-bc-container{
+    align-items: center;
+}
+/* helping blockchain title */
+.helping-bc-title{
+    text-align: center;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+/* helping section img left */
+.helping-bc-left{
+    width: 50%;
+    margin-right: 50px;
+}
+.helping-bc-left img{
+    width: 100%;
+}
+/* helping section content r */
+.helping-bc-right{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    color: white;
+}
+.helping-details{
+    align-items: center;
+    margin: 15px;
+}
+.helping-details i{
+    margin-right: 10px;
+    font-size: 40px;
+}
+.helping-details p{
+    color: var(--light-gray);
+    margin-top: 10px;
+}
+
 /* Contact form section */
 .contact-section {
     margin: 150px 0;
